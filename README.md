@@ -18,8 +18,8 @@ This script automates the removal of the slower virtual memory `swapfile` and in
 1. Clone the repository or download the script and save it to your ***Downloads folder**:
 
 ```bash
+cd ~/Downloads
 wget https://github.com/diogopessoa/ubuntu-zram-setup/blob/main/ubuntu-zram-setup.sh
-cd ~ Downloads/ubuntu-zram-setup
 ```
 
 2. Make the script executable:
