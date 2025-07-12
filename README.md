@@ -1,4 +1,4 @@
-# UBUNTU ZRAM SETUP
+# Ubuntu zRAM Setup
 
 This script automates the removal of the slower virtual memory `swapfile` and installs/configures **zRAM as swap**, which provides faster and more modern memory swapping for Linux and Ubuntu-based systems.
 
@@ -18,7 +18,7 @@ This script automates the removal of the slower virtual memory `swapfile` and in
 1. Clone the repository or download the script and save it to your ***Downloads folder**:
 
 ```bash
-wget https://github.com/diogopessoa/ubuntu-zram-setup.sh
+wget https://github.com/diogopessoa/ubuntu-zram-setup/blob/main/ubuntu-zram-setup.sh
 cd ~ Downloads/ubuntu-zram-setup
 ```
 
