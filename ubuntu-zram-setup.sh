@@ -1,4 +1,8 @@
 #!/bin/bash
+# Author: Diogo Pessoa (https://github.com/diogopessoa)
+# License: MIT
+# Description: Script to configure ZRAM, remove swapfile, and enable EarlyOOM on Ubuntu and derivatives.
+
 set -e
 
 [ "$(id -u)" -eq 0 ] || { echo "This script needs to be run as root."; exit 1; }
